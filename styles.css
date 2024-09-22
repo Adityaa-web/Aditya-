@@ -486,7 +486,9 @@ span h1::before{
 }
 
 
-
+.pro{
+    justify-content="space-between";
+}
 
 
 
