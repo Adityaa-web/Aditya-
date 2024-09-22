@@ -1,191 +1,176 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Forum&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Elite&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Bussiness CV</title>
-    <style>
-      .menu {
-        position: relative;
-      }
+<html></html>
+ <head>
+  <title>
+   Voyager
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Rubik+Distressed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+   body {
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #E6E6FA;
+        }
+       
+  </style>
+ </head>
+ <body>
+  <div class="navbar">
+   <div class="logo">
+    VOYAGER
+   </div>
+   <div class="menu">
+    <a href="#">
+     Company
+    </a>
+    <a href="#">
+     Solutions
+    </a>
+    <a href="#">
+     Technologies
+    </a>
+    <a href="#">
+     Voyager Club
+    </a>
+   </div>
+  </div>
+  <a class="contact" href="#">
+    Contact us
+   </a>
+  <div class="hero">
+   <h1>
+    Transforming Shuttle Bus Experience to a Memorable Voyage!
+   </h1>
+   <p>
+    Request → Hop On → Voyage
+   </p>
+   <div class="buttons">
+    <a class="explore" href="#">
+     Explore Our Solutions
+    </a>
+    <a class="quote" href="#">
+     Get a Quote
+    </a>
+   </div>
+  </div>
+  <div class="image-section">
+   <img alt="Shuttle bus interior with modern design and comfortable seating" height="400" src="https://govoyager.com//wp-content/uploads/2024/05/Frame-82-2.jpg.webp" width="1200"/>
+   <a class="quote-button" href="#">
+    <span>
+     Get a quote
+    </span>
+    <i class="fas fa-paper-plane">
+    </i>
+   </a>
+  </div>
 
-      .down {
-        position: absolute;
-        display: none;
-      }
-
-      .menu:hover .down {
-        display: block;
-
-        background-color: rgba(128, 128, 128, 0.374);
-      }
-      .drop {
-        cursor: pointer;
-        margin-left: 60%;
-      }
-
-      .down nav ul {
-        display: flex;
-        gap: 0px;
-        flex-direction: column !important;
-        text-decoration: none;
-        text-align: center;
-      }
-
-      .down li {
-        color: white;
-        margin-left: -40%;
-      }
-    </style>
-    <script>
-      window.addEventListener("load", () => {
-
-        const loader =  document.querySelector(".loader");
-
-       loader.classList.add("loader--hidden");
-
-       loader.addEventListener("transitionend", () => {
-            document.body.removeChild(document.querySelector(".loader"));
-        });
-      });
-    </script>
-  </head>
-  <body>
-    <div class="loader"></div>
-    <header>
-      <div class="box">
-        <h2><a href="index.html">Aditya kadam </a><span>/ PROJECT MANAGER</span></h2>
-      </div>
-      <nav class="nav">
-        <ul>
-          <a href="index.html"><a href="index.html"><li>ABOUTME</li></a></a>
-          <a href="resume.html"><li>RESUME</li></a>
-          <a href="project.html"><li>PROJECT</li></a>
-          <a href="contact.html"><li>CONTACT</li></a>
-        </ul>
-      </nav>
-      <div class="menu">
-        <div class="drop">
-          <img src="menu-outline.svg" alt="" width="30px" height="30px" />
+  <div class="container">
+    <div class="header">
+        <h1>Why choose Voyager</h1>
+        <p>Voyager specializes in personalized transportation experiences. Our team carrying years of experience ensures every journey is seamless and memorable, tailored just for you.</p>
+        <a href="#">About us →</a>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <i class="fas fa-bus"></i>
+            <div>
+                <h3>Versatile Fleet</h3>
+                <p>Custom rides from compact to colossal, with all your favorite extras.</p>
+            </div>
         </div>
-        <div class="down" id="tn">
-          <nav>
-            <ul>
-              <a href="index.html"><li>ABOUT ME</li></a>
-              <a href="resume.html"><li>RESUME</li></a>
-              <a href="project.html"><li>PROJECT</li></a>
-              <a href="contact.html"><li>CONTACT</li></a>
-            </ul>
-          </nav>
+        <div class="feature">
+            <i class="fas fa-wallet"></i>
+            <div>
+                <h3>Cost-Effective</h3>
+                <p>Budget-friendly experience that’s worth every penny.</p>
+            </div>
         </div>
-      </div>
-    </header>
+        <div class="feature">
+            <i class="fas fa-headset"></i>
+            <div>
+                <h3>24/7 Customer Support</h3>
+                <p>Always on call, because your peace of mind is our top priority!</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="fas fa-shield-alt"></i>
+            <div>
+                <h3>Absolute Safety</h3>
+                <p>Travel without a care—safety and smiles in every mile.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="fas fa-microchip"></i>
+            <div>
+                <h3>Revolutionary Technology</h3>
+                <p>Experience the simplicity of booking—just a few clicks to your perfect ride.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="fas fa-user-friends"></i>
+            <div>
+                <h3>Voyager Pass</h3>
+                <p>Hosting Giants? We have got the space for every face.</p>
+            </div>
+        </div>
+    </div>
+    <div class="cta">
+        <h2>Group mobility solutions by Voyager!</h2>
+        <p>From personal to professional, our transportation solutions are tailored for every unique situation</p>
+    </div>
+</div>
 
-    <div class="bgcolor"></div>
-
+<div class="container1">
     <div class="card">
-      <div class="info">
-        <img src="adi.jpg" alt="" />
-        <h4>Aditya kadam</h4>
-        <hr />
-
-        <span>PROJECT MANAGER</span>
-      </div>
-      <footer>
-        <div class="footer-image">
-          <a href="https://www.facebook.com/wix"
-            ><img
-              src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png"
-              alt=""
-            />
-          </a>
-          <a href="https://www.twitter.com/wix">
-            <img
-              src="https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c7d035ba85f6486680c2facedecdcf4d.png"
-              alt=""
-            />
-          </a>
-          <a href="https://www.linkedin.com/company/wix-com"
-            ><img
-              src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png"
-              alt=""
-            />
-          </a>
-          <a href="https://www.instagram.com/wix"
-            ><img
-              src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/01c3aff52f2a4dffa526d7a9843d46ea.png"
-              alt=""
-            />
-          </a>
-        </div>
-      </footer>
+     <img alt="Image of a bus rental service" height="400" src="https://govoyager.com//wp-content/uploads/2024/05/Motorcoach1-768x748.jpg.webp" width="600"/>
+     <div class="card-content">
+      <h3>
+       Bus Rentals
+      </h3>
+      <button>
+       Explore
+      </button>
+     </div>
     </div>
-    <div class="side">
-      <h1>Hello</h1>
-      <p
-        style="
-          font-weight: 500;
-          font-size: 25px;
-          margin-top: -15%;
-          margin-left: 40px;
-        "
-      >
-        Here's who I am & what I do
-      </p>
-      <br /><a href="resume.html"><button class="btn1">RESUME</button></a>
-      <a href="project.html"><button class="btn2">PROJECTS</button></a>
-      <p>
-        My journey in web development began with a deep curiosity for how things
-        work on the web, and it has grown into a full-fledged career where I get
-        to solve complex problems with elegant code. I am particularly skilled
-        in HTML5,CSS3,JavaScript, and modern frameworks like React.js and
-        Node.js. Whether challenges and deliver top-notch results.
-      </p>
+    <div class="card">
+     <img alt="Image of a voyager shuttle service" height="400" src="https://govoyager.com//wp-content/uploads/2024/05/28-Passenger-Minibus-768x748.jpg.webp" width="600"/>
+     <div class="card-content">
+      <h3>
+       Voyager Shuttle
+      </h3>
+      <button>
+       Explore
+      </button>
+     </div>
     </div>
-
-    <footer id="foot">
-      <div class="call">
-        <center><p><strong>Call</strong></p></center>
-        <p>123-456-789</p>
-      </div>
-      <div class="write">
-        <center><p><strong>Write</strong></p></center>
-        <p>Adi.kadam2gmail.com</p>
-      </div>
-      <div class="follow">
-        <center><p><strong>Follow</strong></p></center>
-        <a href="https://www.facebook.com/wix"
-          ><img
-            src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png"
-            alt=""
-          />
-        </a>
-        <a href="https://www.twitter.com/wix">
-          <img
-            src="https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c7d035ba85f6486680c2facedecdcf4d.png"
-            alt=""
-          />
-        </a>
-        <a href="https://www.linkedin.com/company/wix-com"
-          ><img
-            src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png"
-            alt=""
-          />
-        </a>
-        <a href="https://www.instagram.com/wix"
-          ><img
-            src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/01c3aff52f2a4dffa526d7a9843d46ea.png"
-            alt=""
-          />
-        </a>
-      </div>
-    </footer>
-  </body>
+    <div class="card">
+     <img alt="Image of a voyager school service" height="400" src="https://govoyager.com//wp-content/uploads/2024/05/14-Passenger-Regular-Van-768x748.jpg.webp" width="600"/>
+     <div class="card-content">
+      <h3>
+       Voyager School
+      </h3>
+      <button>
+       Explore
+      </button>
+     </div>
+    </div>
+   </div>
+   <div class="section">
+    <p>
+     Voyager Around the World!
+    </p>
+    <h2>
+     Most Popular Cities We Serve
+    </h2>
+    <button>
+     Explore more
+    </button>
+   </div>
+    
+ </body>
 </html>

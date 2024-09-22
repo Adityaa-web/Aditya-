@@ -1,235 +1,253 @@
-@media only screen and (max-width: 768px) {
-    header .nav  {
-      display: none;
-    }
-    .menu{
-      display: block;
-      width: 20%;
-      margin-right: 4%;
-    }
-    .box h2{
-      padding: 0px 0px 9px 35px !important;
-    }
-    .bgcolor{
-      background-color: #e6dace;
-      width: 100% !important;
-    }
-
-    .card{
-      margin-top: -109% !important;
-     justify-content: center;
-    }
-    .side{
-      width: 50%  !important;
-      margin-top: 100% !important;
-    }
+body {
+   
+    font-family: 'Roboto', sans-serif;
+    background-color: #E6E6FA;
 }
-@media only screen and (min-width: 768px) {
-    .menu{
-       display: none;
-    }
- }
- @media only screen and (max-width: 835px) {
-     .nav ul{
-       display: flex;
-       gap: 30px;
-     }
-     .card{
-       margin-top: -109% !important;
-      justify-content: center;
-     }
- }
- 
-
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    z-index: 0;
-}
-.resume{
-    background-color: #e6dace;
- }
- 
- header{
-     display: flex;
-     background-color: #fff;
-     padding: 1.5rem;
-     align-items: center;
-     justify-content: space-evenly;
-     position: fixed;
-     width: 100%;
-     z-index: 1;
- }
- 
-   ul{
-     list-style-type: none;
-     display: flex;
-     gap: 50px;
-     margin: 0;
-     color: black;
-  }
-  .box{
-     position: relative;
-  }
-  .box a{
-   text-decoration: none;
-   color: black;
- }
-  .box h2{
-     font-family: "Poppins", sans-serif;
-     font-weight: 600;
-     margin: 0;
-     padding: 0px 190px 9px 35px;
-     align-items: center;
-     font-size: xx-large;
-     width: 100%;
-  }
- 
- 
- 
-  span{
-     font-weight: 200;
-     font-size: large;
-  }
-  ul li:hover{
-     color: blue;
-  }
-  header  ul a{
-     text-decoration: none;
-     font-size: 15px;
-  }
-  h2::before{
-     position: absolute;
-     width: 23px;
-     height: 23px;
-     content: "";
-     background-color: blue;
-     margin-top: 2%;
-     left: 0;
- 
-  }
-  span h1::before{
-    position: absolute;
-    width: 23px;
-    height: 23px;
-    content: "";
-    background-color: blue;
-    margin-left: -2.5%;
-    margin-top: 1%;
-    
-}
-.btn1:hover{
-   background-color: #e6dace !important;
-   color: rgb(0, 0, 0) !important;
-   border: 2px solid rgba(31, 3, 242, 0.685) !important;
-   transition: ease 0.5s;
-  
-}
-.btn1{
-   background-color: rgba(0, 0, 255, 0.789) !important;
-   color: white !important; 
-   border: none !important;
-   transition: all;
-   cursor: pointer;
-}  
- 
- span h1{
-    padding: 0px 190px 9px 35px;
- }
- 
- .upper-head{
+.navbar {
     display: flex;
-    gap: 30%;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 32%;
- }
- .upper-head h3{
-    font-size: 25px;
- }
- .upper-head .btn1{
-    padding: 10px 20px 10px 20px;
-    border-radius: 50px;
-    font-size: 15px;
-    font-weight: 600;
- }
- 
- .expi{
+    padding: 10px 20px;
     background-color: white;
-    width: 600px;
-    height: 300px;
-    margin-left: 32%;
-    box-sizing: border-box;
-    margin-bottom: 40px;
-    border-radius: 20px;
- }
-
- .expi{
-    padding: 30px;
- }
- .expi .expi1 h3{
-    color:rgba(0, 0, 255, 0.673);
-    padding: 0;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 1.5%;
+    border-radius: 10px;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold; 
+    font-family: "Poetsen One", sans-serif; 
+}
+.navbar .menu {
+    display: flex;
+    gap: 40px;
+}
+.navbar .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+ .contact {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 90%;
+}
+.hero {
+    text-align: left;
+    padding: 50px 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+.hero h1 {
+    font-size: 68px;
     margin: 0;
- }
+    width: 60%;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-bottom: -5%;
+}
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+    margin-left: 75.8%;
+}
+.hero .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 75%;
+    margin-bottom: -2%;
+}
+.hero .buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.hero .buttons .explore {
+    background-color: black;
+    color: white;
+}
+.hero .buttons .quote {
+    background-color: white;
+    color: black;
+    border: 0.5px solid rgba(0, 0, 0, 0.447);
+}
+.image-section {
+    position: relative;
+    margin: 20px;
+}
+.image-section img {
+    width: 100%;
+    border-radius: 10px;
+    width: 1480px;
+    height: 788px;
+}
+.image-section .quote-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding: 20px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.203);
+}
 
- .expi .expi2 h4{
-   font-weight: 300;
- }
- .expi .expi2 h5{
-   font-weight: 300;
- }
- .epic{
-   padding: 0;
- }
-.disc {
-   width: 50%;
-   display: flexbox;
-   font-weight: 300;
-   float: right;
-   margin-top: -33%;
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    width: 98%;
 }
-.expi{
-   padding: 50px 20px 0px 20px;
+.header {
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 10px 30px 10px;
+    display: inline-flex;
 }
-#foot{
-   background-color: #fff;
-   width: 100%;
-   height: 100px;
-   margin-top: 12%;
-   display: flex;
-   justify-content: space-around; 
+.header h1 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: 300;
+    width: 30%;
 }
-.loader{
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100vw;
-   height: 100vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-color: #333333;
-   z-index: 3;
-   transition: opacity 10s, visibility 1s;
+.header p {
+    font-size: 16px;
+    font-weight: 100;
+    margin: 10px 0;
+    width: 50%;
+}
+.header a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+.header a:hover {
+    text-decoration: underline;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.feature {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.feature i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #666;
+}
+.feature h3 {
+    font-size: 20px;
+    margin: 0;
+}
+.feature p {
+    font-size: 16px;
+    margin: 5px 0 0 34px;
+}
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+.cta h2 {
+    font-size: 36px;
+    margin: 0;
+}
+.cta p {
+    font-size: 18px;
+    margin: 10px 0;
 }
 
-.loader--hidden{
-   opacity: 0;
-   visibility: hidden;
-}
 
-.loader::after{
-   content: "";
-   width: 75px;
-   height: 75px;
-   border: 15px solid #dddddd;
-   border-top-color: #009578;
-   border-radius: 100px;
-   animation: loading 0.75s ease infinite;
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
-@keyframes loading{
-   from{transform: rotate(0turn);}
-   to {transform: rotate(1turn);}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 20px;
+}
+.card-content h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.card-content button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #E6E6FA;
+}
+.section h2 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+.section button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.quote-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.quote-button button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.quote-button button i {
+    margin-left: 10px;
 }
