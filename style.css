@@ -210,9 +210,8 @@ body{
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: #333333;
-   z-index: 3;
-   transition: opacity 10s, visibility 1s;
+   background-color: #ffffff;
+   transition: 2s ease;
 }
 
 .loader--hidden{
@@ -220,16 +219,5 @@ body{
    visibility: hidden;
 }
 
-.loader::after{
-   content: "";
-   width: 75px;
-   height: 75px;
-   border: 15px solid #dddddd;
-   border-top-color: #009578;
-   border-radius: 100px;
-   animation: loading 0.75s ease infinite;
-}
-@keyframes loading{
-   from{transform: rotate(0turn);}
-   to {transform: rotate(1turn);}
-}
+
+
