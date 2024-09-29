@@ -118,7 +118,7 @@ body{
     background-color: blue;
     margin-left: -2.5%;
     margin-top: 1%;
-    
+      z-index: 0;
 }
 .btn1:hover{
    background-color: #e6dace !important;
@@ -212,6 +212,7 @@ body{
    justify-content: center;
    background-color: #ffffff;
    transition: 2s ease;
+    z-index: 1;
 }
 
 .loader--hidden{
