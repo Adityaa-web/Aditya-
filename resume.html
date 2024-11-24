@@ -42,17 +42,15 @@
         color: white;
         margin-left: -40%;
       }
-      
     </style>
-     <script>
+    <script>
       window.addEventListener("load", () => {
+        const loader = document.querySelector(".loader");
 
-        const loader =  document.querySelector(".loader");
+        loader.classList.add("loader--hidden");
 
-       loader.classList.add("loader--hidden");
-
-       loader.addEventListener("transitionend", () => {
-            document.body.removeChild(document.querySelector(".loader"));
+        loader.addEventListener("transitionend", () => {
+          document.body.removeChild(document.querySelector(".loader"));
         });
       });
     </script>
@@ -61,11 +59,14 @@
     <div class="loader"></div>
     <header>
       <div class="box">
-        <h2><a href="index.html">Aditya kadam </a><span>/ PROJECT MANAGER</span></h2>
+        <h2>
+          <a href="index.html">Aditya kadam </a><span>Full-stack Webdeveloper</span>
+        </h2>
       </div>
       <nav class="nav">
         <ul>
-           <a href="index.html"></a><a href="index.html"><li>ABOUTME</li></a>
+          <a href="index.html"></a
+          ><a href="index.html"><li>ABOUTME</li></a>
           <a href="resume.html"><li>RESUME</li></a>
           <a href="project.html"><li>PROJECT</li></a>
           <a href="contact.html"><li>CONTACT</li></a>
@@ -99,96 +100,99 @@
     </div>
     <div class="upper-head">
       <h3>Experience</h3>
-      <a href="adicv.pdf" target="_blank"><button class="btn1">DOWNLOAD CV</button></a>
+      <a href="adicv.pdf" target="_blank"
+        ><button class="btn1">DOWNLOAD CV</button></a
+      >
     </div>
 
     <div class="expi">
       <div class="epic">
         <div class="expi1">
-          <h3>2035-Present</h3>
+          <h3>2022-2024</h3>
         </div>
         <div class="expi2">
-          <h4>JOLB POSITION</h4>
+          <h4>Education</h4>
         </div>
         <div class="expi2">
-          <h5>Company Name</h5>
+          <h5>B.S. in Computer Science,<br> University of Tech</h5>
         </div>
         <div class="expi2">
-          <h5>Company Location</h5>
+          <h5>Graduated with Honors, GPA: 3.8/4.0</h5>
         </div>
       </div>
 
       <div class="disc">
         <p>
-          I'm a paragraph. Click here to add your own text and edit me. It’s
-          easy. Just click “Edit Text” or double click me to add your own
-          content and make changes to the font. <br>I’m a great place for you to
-          tell a story and let your users know a little more about you.
+            Results-driven software developer with 5+ years of experience in designing, developing, and
+            deploying scalable web applications. Proficient in Python, JavaScript, and cloud platforms, seeking
+            to leverage expertise to drive innovative solutions at Goggle.
         </p>
       </div>
     </div>
     <div class="expi">
       <div class="epic">
         <div class="expi1">
-          <h3>2035-Present</h3>
+          <h3>2022-2024</h3>
         </div>
         <div class="expi2">
-          <h4>JOLB POSITION</h4>
+          <h4>Skills</h4>
         </div>
         <div class="expi2">
-          <h5>Company Name</h5>
+          <h5>Programming: <br> Python, JavaScript, HTML/CSS, Java</h5>
         </div>
         <div class="expi2">
-          <h5>Company Location</h5>
+          <h5>Frameworks: <br> React, Django, Node.js</h5>
         </div>
       </div>
 
-      <div class="disc">
+      <div class="disc1">
         <p>
-          I'm a paragraph. Click here to add your own text and edit me. It’s
-          easy. Just click “Edit Text” or double click me to add your own
-          content and make changes to the font. <br>I’m a great place for you to
-          tell a story and let your users know a little more about you.
+            Developed web applications using Python, JavaScript, and HTML/CSS, resulting in a 25% increase in user engagement.
+            Built scalable backend services in Java, reducing processing time by 30%.
         </p>
       </div>
     </div>
     <div class="expi">
       <div class="epic">
         <div class="expi1">
-          <h3>2035-Present</h3>
+          <h3>2022-2024</h3>
         </div>
         <div class="expi2">
-          <h4>JOLB POSITION</h4>
+          <h4>Certifications</h4>
         </div>
         <div class="expi2">
-          <h5>Company Name</h5>
+          <h5>AWS Certified Solutions Architect</h5>
         </div>
         <div class="expi2">
-          <h5>Company Location</h5>
+          <h5>Google Professional Cloud Developer</h5>
         </div>
       </div>
 
-      <div class="disc">
+      <div class="disc2">
         <p>
-          I'm a paragraph. Click here to add your own text and edit me. It’s
-          easy. Just click “Edit Text” or double click me to add your own
-          content and make changes to the font. <br>I’m a great place for you to
-          tell a story and let your users know a little more about you.
+            Demonstrates expertise in designing and deploying scalable, fault-tolerant, and secure applications on Amazon Web Services (AWS). <br>
+            Validates proficiency in building, testing, and deploying cloud-native applications on Google Cloud Platform (GCP).
         </p>
       </div>
     </div>
 
     <footer id="foot">
       <div class="call">
-        <center><p><strong>Call</strong></p></center>
+        <center>
+          <p><strong>Call</strong></p>
+        </center>
         <p>123-456-789</p>
       </div>
       <div class="write">
-        <center><p><strong>Write</strong></p></center>
+        <center>
+          <p><strong>Write</strong></p>
+        </center>
         <p>Adi.kadam2gmail.com</p>
       </div>
       <div class="follow">
-        <center><p><strong>Follow</strong></p></center>
+        <center>
+          <p><strong>Follow</strong></p>
+        </center>
         <a href="https://www.facebook.com/wix"
           ><img
             src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png"
