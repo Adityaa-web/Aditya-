@@ -46,13 +46,12 @@
     </style>
     <script>
       window.addEventListener("load", () => {
+        const loader = document.querySelector(".loader");
 
-        const loader =  document.querySelector(".loader");
+        loader.classList.add("loader--hidden");
 
-       loader.classList.add("loader--hidden");
-
-       loader.addEventListener("transitionend", () => {
-            document.body.removeChild(document.querySelector(".loader"));
+        loader.addEventListener("transitionend", () => {
+          document.body.removeChild(document.querySelector(".loader"));
         });
       });
     </script>
@@ -61,11 +60,14 @@
     <div class="loader"></div>
     <header>
       <div class="box">
-        <h2><a href="index.html">Aditya kadam </a><span>/ PROJECT MANAGER</span></h2>
+        <h2>
+          <a href="index.html">Aditya kadam </a><span> Full-stack Webdeveloper </span>
+        </h2>
       </div>
       <nav class="nav">
         <ul>
-           <a href="index.html"></a><a href="index.html"><li>ABOUTME</li></a>
+          <a href="index.html"></a
+          ><a href="index.html"><li>ABOUTME</li></a>
           <a href="resume.html"><li>RESUME</li></a>
           <a href="project.html"><li>PROJECT</li></a>
           <a href="contact.html"><li>CONTACT</li></a>
@@ -73,7 +75,7 @@
       </nav>
       <div class="menu">
         <div class="drop">
-          <img src="menu-outline.svg" alt="" width="30px" height="30px" />
+          <img src="menu-outline (1).svg" alt="" width="30px" height="30px" />
         </div>
         <div class="down" id="tn">
           <nav>
@@ -96,7 +98,7 @@
         <h4>Aditya kadam</h4>
         <hr />
 
-        <span>PROJECT MANAGER</span>
+        <span>Full-stack Webdeveloper</span>
       </div>
       <footer>
         <div class="footer-image">
@@ -152,15 +154,21 @@
 
     <footer id="foot">
       <div class="call">
-        <center><p><strong>Call</strong></p></center>
+        <center>
+          <p><strong>Call</strong></p>
+        </center>
         <p>123-456-789</p>
       </div>
       <div class="write">
-        <center><p><strong>Write</strong></p></center>
+        <center>
+          <p><strong>Write</strong></p>
+        </center>
         <p>Adi.kadam2gmail.com</p>
       </div>
       <div class="follow">
-        <center><p><strong>Follow</strong></p></center>
+        <center>
+          <p><strong>Follow</strong></p>
+        </center>
         <a href="https://www.facebook.com/wix"
           ><img
             src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png"
